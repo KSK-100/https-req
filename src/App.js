@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-
-import Blog from './containers/Blog/Blog';
-
+import HomePage from './containers/Blog/Blog';
+//just changed name of file
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Blog />
+        <HomePage />
       </div>
     );
   }
